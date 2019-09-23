@@ -14,7 +14,6 @@ function App() {
   ];
 
   const [gameField, setGameField] = useState(initialGameField);
-
   const [currentPlayer, setCurrentPlayer] = useState(1);
   const [gameOver, setGameOver] = useState(false);
 
@@ -27,7 +26,6 @@ function App() {
   }
 
   function isGameOver(gameField) {
-    console.log(gameField.length);
     for (let i = 0; i < gameField.length; i++) {
       let count = 0;
       for (let j = 1; j < gameField[i].length; j++) {
