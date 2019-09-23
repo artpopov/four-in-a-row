@@ -1,0 +1,12 @@
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: black;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.column:hover {
+  background-color: #999999;
+}
